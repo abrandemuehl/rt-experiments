@@ -1,0 +1,9 @@
+[package]
+name = "rtwrapper"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+libc = "0.2.155"
+clap = { version = "4.5.13", features = ["derive"] }
+rlimit = "0.10.1"
